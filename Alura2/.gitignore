@@ -1,0 +1,5 @@
+#Venv
+*.env
+/.Venv
+
+langchain

@@ -1,0 +1,26 @@
+# ============================
+# Versão estável para o curso
+# ============================
+
+langchain==0.1.20
+langchain-core==0.1.52
+langchain-community==0.0.29
+langchain-openai==0.1.6
+
+openai>=1.14.0
+tiktoken>=0.6.0
+
+# Pydantic 1 → compatível com BaseTool e ferramentas antigas
+pydantic<2
+
+# Utilidades
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Para carregar PDFs, docs e outros
+pypdf
+faiss-cpu
+chromadb
+
+# Evitar conflitos com LangChain moderno
+typing-extensions>=4.5.0
