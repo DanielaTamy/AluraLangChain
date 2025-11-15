@@ -1,4 +1,4 @@
 #Venv
 *.env
-
+/.Venv
 langchain
